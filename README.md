@@ -29,8 +29,8 @@ Make sure to replace your_api_key_here with your actual API key.
 
 Note: You will need to set the environment variable each time you open a new terminal session. To avoid this, consider adding the export command to your shell's configuration file (e.g., .bashrc or .zshrc).
 
-# # Data
-# Input Data
+#Data
+- Input Data
 The input data for this project consists of source imagery and corresponding field boundary labels. The data is organized as follows:
 
 Source Imagery
@@ -60,10 +60,10 @@ raster_labels.tif
 # Output Data
 The output data for this project consists of the trained models and their corresponding predictions.
 
-# # Trained Models
+- Trained Models
 U-Net: unet_best_model.h5
 PSPNet: pspnet_best_model.h5
-# # Predictions
+- Predictions
 U-Net predictions: unet_predictions
 {chip_id}_unet_prediction.tif
 PSPNet predictions: pspnet_predictions
