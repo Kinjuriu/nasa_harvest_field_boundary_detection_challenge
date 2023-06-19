@@ -30,7 +30,7 @@ Make sure to replace your_api_key_here with your actual API key.
 Note: You will need to set the environment variable each time you open a new terminal session. To avoid this, consider adding the export command to your shell's configuration file (e.g., .bashrc or .zshrc).
 
 # Data
-- Input Data
+Input Data
 The input data for this project consists of source imagery and corresponding field boundary labels. The data is organized as follows:
 
 Source Imagery
@@ -79,7 +79,7 @@ Label: The predicted label for each tile (0 for no boundary, 1 for boundary).
 
 To run the project, execute the following command:
 
-poetry run python main.py
+`poetry run python main.py`
 
 This command will train and evaluate the models using the data in the specified data directory.
 
