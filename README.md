@@ -29,7 +29,7 @@ Make sure to replace your_api_key_here with your actual API key.
 
 Note: You will need to set the environment variable each time you open a new terminal session. To avoid this, consider adding the export command to your shell's configuration file (e.g., .bashrc or .zshrc).
 
-#Data
+# Data
 - Input Data
 The input data for this project consists of source imagery and corresponding field boundary labels. The data is organized as follows:
 
@@ -83,9 +83,6 @@ poetry run python main.py
 
 This command will train and evaluate the models using the data in the specified data directory.
 
-# Running on Google Cloud Platform
-Instructions on setting up the environment and running the code on a Google Cloud virtual machine will be added later.
-
 # Contributing
 If you would like to contribute to this project, please follow these steps:
 
@@ -93,6 +90,8 @@ Fork the repository.
 Create a new branch with a descriptive name.
 Make changes or add new features to the code.
 Commit your changes and create a pull request.
+
+You can also reach out to me at stephanenjokingugi@gmail.com
 
 # License
 This project is released under the MIT License. Please refer to the LICENSE file for more information.
